@@ -1,0 +1,49 @@
+# Claude
+.claude/
+
+# AI agents
+.agents/
+.agent
+AGENTS.md
+.devin/
+
+# Environment
+.env
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.mcp.json
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker volumes (if bind-mounted locally)
+mariadb/
+minio/
+
+# dbt generated
+infra/dbt/.user.yml
+infra/dbt/target/
+infra/dbt/logs/
+infra/dbt/dbt_packages/
+CLAUDE.md
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.jupyter_ystore.db
